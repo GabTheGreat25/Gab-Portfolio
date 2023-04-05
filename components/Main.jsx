@@ -56,8 +56,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-30 bg-white">
+                <FaLinkedinIn className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -65,8 +65,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaGithub className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -74,8 +74,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaInstagram />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaInstagram className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -83,13 +83,13 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaFacebookF />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaFacebookF className="text-[#34495e]" />
               </div>
             </a>
             <a href="https://t.me/Gabz092501" target="_blank" rel="noreferrer">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaTelegram />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaTelegram className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -97,8 +97,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaStackOverflow />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaStackOverflow className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -106,8 +106,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaTwitter />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaTwitter className="text-[#34495e]" />
               </div>
             </a>
             <a
@@ -115,8 +115,8 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaDiscord />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <FaDiscord className="text-[#34495e]" />
               </div>
             </a>
           </div>
