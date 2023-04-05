@@ -25,7 +25,7 @@ const Contact = () => {
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
-              <div>
+              <div className="flex justify-center">
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={Gab}
@@ -33,9 +33,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Gabriel Mendoza</h2>
-                <p>Front-End Web Developer</p>
-                <p className="py-4">
+                <h2 className="py-2 text-center">Gabriel Mendoza</h2>
+                <p className=" text-center">Front-End Web Developer</p>
+                <p className="py-4  text-center">
                   I am available for freelance or part-time positions. Contact
                   me and let&apos;s talk.
                 </p>
