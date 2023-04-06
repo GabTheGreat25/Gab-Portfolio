@@ -111,7 +111,7 @@ const Navbar = () => {
             </div>
             <hr className="border-b border-gray-300 my-4 text-[#ecf0f3]" />
           </div>
-          <div className="py-4 flex flex-col text-[#ecf0f3]">
+          <div className="xss:relative xss:right-6 py-4 flex flex-col text-[#ecf0f3]">
             <ul>
               <Link href="/">
                 <li
@@ -159,14 +159,14 @@ const Navbar = () => {
                 Let&#39;s Connect
               </p>
 
-              <div className="grid grid-cols-4 pt-2 max-w-[15rem] gap-2">
+              <div className="xss:gap-x-14 xss:gap-y-4 xs:max-w-[12rem] gap-2 grid grid-cols-4 pt-2 max-w-[15rem]">
                 <a
                   href="https://www.linkedin.com/in/gabriel-mendoza-218a07252/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaLinkedinIn />
                     </span>
                   </div>
@@ -176,8 +176,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaGithub />
                     </span>
                   </div>
@@ -187,8 +187,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaInstagram />
                     </span>
                   </div>
@@ -198,8 +198,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaFacebookF />
                     </span>
                   </div>
@@ -209,8 +209,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaTelegram />
                     </span>
                   </div>
@@ -220,8 +220,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaStackOverflow />
                     </span>
                   </div>
@@ -231,8 +231,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaTwitter />
                     </span>
                   </div>
@@ -242,8 +242,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
                       <FaDiscord />
                     </span>
                   </div>
