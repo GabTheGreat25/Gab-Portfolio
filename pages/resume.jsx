@@ -18,7 +18,9 @@ const resume = () => {
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Gabriel Mendoza</h2>
           <div className="flex">
-            <p className="font-bold italic text-xl">09938465564</p>
+            <p className="font-bold italic text-xl">
+              09938465564(DITO) | 09260024358(GLOBE)
+            </p>
           </div>
         </div>
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
