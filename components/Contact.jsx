@@ -50,7 +50,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -59,7 +59,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaGithub />
                     </div>
                   </a>
@@ -68,7 +68,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaInstagram />
                     </div>
                   </a>
@@ -77,7 +77,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaFacebookF />
                     </div>
                   </a>
@@ -86,7 +86,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaTelegram />
                     </div>
                   </a>
@@ -95,7 +95,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaStackOverflow />
                     </div>
                   </a>
@@ -104,7 +104,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaTwitter />
                     </div>
                   </a>
@@ -113,7 +113,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#f1f2f6]">
                       <FaDiscord />
                     </div>
                   </a>
