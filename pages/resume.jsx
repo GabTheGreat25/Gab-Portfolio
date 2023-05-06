@@ -1,15 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaStackOverflow,
-  FaTelegram,
-  FaDiscord,
-} from "react-icons/fa";
 
 const resume = () => {
   return (
