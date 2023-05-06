@@ -11,6 +11,7 @@ import {
   FaDiscord,
 } from "react-icons/fa";
 import HomeImg from "../public/assets/about-me/Gab-Laptop.jpg";
+
 const Main = () => {
   return (
     <div className="w-full h-screen text-center bg-[#34495e] text-white">
