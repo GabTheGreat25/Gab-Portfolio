@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import HomeImg from "../public/assets/about-me/Gab-Laptop.jpg";
+import VloggersTvImg from "../public/assets/projects/VloggersTv.png";
 
 const projects = () => {
   return (
@@ -20,56 +20,35 @@ const projects = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <Image
-              height="100%"
-              width="100%"
-              layout="responsive"
-              src={HomeImg}
-              alt="Placeholder Image"
-            />
+            <a
+              href="https://gabthegreat25.github.io/Final-Project-ITOS322-T/"
+              className="text-black hover:text-[#5651e5]"
+            >
+              <Image
+                height="100%"
+                width="100%"
+                layout="responsive"
+                src={VloggersTvImg}
+                alt="VloggersTv"
+              />
+            </a>
             <div className="p-4">
-              <h2 className="font-bold text-2xl mb-2">Card Title</h2>
+              <a
+                href="https://gabthegreat25.github.io/Final-Project-ITOS322-T/"
+                className="text-black hover:text-[#5651e5]"
+              >
+                <h2 className="font-bold text-2xl mb-2">VloggersTv</h2>
+              </a>
+
               <p className="text-gray-800">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <Image
-              height="100%"
-              width="100%"
-              layout="responsive"
-              src={HomeImg}
-              alt="Placeholder Image"
-            />
-            <div className="p-4">
-              <h2 className="font-bold text-2xl mb-2">Card Title</h2>
-              <p className="text-gray-800">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <Image
-              height="100%"
-              width="100%"
-              layout="responsive"
-              src={HomeImg}
-              alt="Placeholder Image"
-            />
-            <div className="p-4">
-              <h2 className="font-bold text-2xl mb-2">Card Title</h2>
-              <p className="text-gray-800">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                This project was created using a combination of Tailwind, SCSS,
+                HTML, and JS. Tailwind provided a powerful and customizable CSS
+                framework, while SCSS was used to write more maintainable and
+                organized CSS. HTML was used to structure the content of the web
+                pages, while JS was used to add interactivity and dynamic
+                behavior to the user interface. Together, these tools enabled
+                the creation of a modern, responsive, and functional web
+                application.
               </p>
             </div>
           </div>
