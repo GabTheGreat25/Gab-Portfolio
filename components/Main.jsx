@@ -52,12 +52,14 @@ const Main = () => {
 
           <div className="hidden md:grid grid-cols-4 items-center justify-between m-auto max-w-[18rem] gap-4">
             <a
-              href="https://www.linkedin.com/in/gabriel-mendoza-218a07252/"
+              href="https://www.linkedin.com/in/gabriel-mendoza-218a07252"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-30 bg-white">
-                <FaLinkedinIn className="text-[#34495e]" />
+              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                <span className="relative right-[.1rem]">
+                  <FaLinkedinIn className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -66,7 +68,9 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaGithub className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaGithub className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -75,7 +79,9 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaInstagram className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaInstagram className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -84,12 +90,16 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaFacebookF className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaFacebookF className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a href="https://t.me/Gabz092501" target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaTelegram className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaTelegram className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -98,7 +108,9 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaStackOverflow className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaStackOverflow className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -107,7 +119,9 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaTwitter className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaTwitter className="text-[#34495e]" />
+                </span>
               </div>
             </a>
             <a
@@ -116,7 +130,9 @@ const Main = () => {
               rel="noreferrer"
             >
               <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
-                <FaDiscord className="text-[#34495e]" />
+                <span className="relative right-[.1rem]">
+                  <FaDiscord className="text-[#34495e]" />
+                </span>
               </div>
             </a>
           </div>
