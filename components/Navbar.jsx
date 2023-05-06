@@ -104,7 +104,7 @@ const Navbar = () => {
             <div className="flex w-full justify-end">
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-[#ecf0f3]"
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-[#ecf0f3] hover:scale-110 ease-in duration-300"
               >
                 <AiOutlineClose />
               </div>
@@ -154,6 +154,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
+            <br />
             <div className="pt-6">
               <p className=" tracking-widest text-[#ecf0f3]">
                 Let&#39;s Connect
@@ -165,8 +166,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaLinkedinIn />
                     </span>
                   </div>
@@ -176,8 +177,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaGithub />
                     </span>
                   </div>
@@ -187,8 +188,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaInstagram />
                     </span>
                   </div>
@@ -198,8 +199,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaFacebookF />
                     </span>
                   </div>
@@ -209,8 +210,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaTelegram />
                     </span>
                   </div>
@@ -220,8 +221,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaStackOverflow />
                     </span>
                   </div>
@@ -231,8 +232,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaTwitter />
                     </span>
                   </div>
@@ -242,8 +243,8 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1">
+                  <div className="xss:max-h-1 xs:max-h-[1rem] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+                    <span className="xss:bottom-[.5rem] xss:right-[.5rem] xs:right-2 xs:bottom-2 relative right-1 text-[#34495e]">
                       <FaDiscord />
                     </span>
                   </div>
