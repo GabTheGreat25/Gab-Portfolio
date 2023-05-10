@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import VloggersTvImg from "../public/assets/projects/VloggersTv.png";
+import CameraRentalImg from "../public/assets/projects/CameraRental.png";
 
 const projects = () => {
   return (
@@ -22,7 +23,7 @@ const projects = () => {
           <div className="bg-white shadow-lg rounded-lg overflow-hidden">
             <a
               href="https://gabthegreat25.github.io/Final-Project-ITOS322-T/"
-              className="text-black hover:text-[#5651e5]"
+              className="text-black"
             >
               <Image
                 height="100%"
@@ -49,6 +50,35 @@ const projects = () => {
                 behavior to the user interface. Together, these tools enabled
                 the creation of a modern, responsive, and functional web
                 application.
+              </p>
+            </div>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <a
+              href="https://camera-rental-fe.vercel.app/"
+              className="text-black "
+            >
+              <Image
+                height="100%"
+                width="100%"
+                layout="responsive"
+                src={CameraRentalImg}
+                alt="CameraRental"
+              />
+            </a>
+            <div className="p-4">
+              <a
+                href="https://camera-rental-fe.vercel.app/"
+                className="text-black hover:text-[#5651e5]"
+              >
+                <h2 className="font-bold text-2xl mb-2">Camera Rental</h2>
+              </a>
+
+              <p className="text-gray-800">
+                This project was created using the MERN (MongoDB, Express,
+                React, Node.js) stack, incorporating the powerful state
+                management tools of Redux Toolkit and the streamlined data
+                fetching capabilities of RTK Query.
               </p>
             </div>
           </div>
