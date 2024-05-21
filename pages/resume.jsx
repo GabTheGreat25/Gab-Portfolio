@@ -18,12 +18,12 @@ const resume = () => {
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center">Gabriel Mendoza</h2>
           <div className="flex">
-            <p className="font-bold italic text-xl">
-              09938465564(DITO) | 09260024358(GLOBE)
+            <p className="text-xl italic font-bold">
+              09938465564(DITO) | 09763743514(GOMO)
             </p>
           </div>
         </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+        <div className="py-4 text-xl font-bold tracking-wider text-center uppercase">
           <div className="hidden sm:block">
             <p>
               Time Management <span className="px-1">|</span> Hard Working
@@ -46,9 +46,9 @@ const resume = () => {
         </p>
 
         {/* Skills */}
-        <div className="text-center py-4">
-          <h5 className="text-center underline text-2xl py-2">Skills</h5>
-          <p className="py-2 flex flex-wrap justify-center">
+        <div className="py-4 text-center">
+          <h5 className="py-2 text-2xl text-center underline">Skills</h5>
+          <p className="flex flex-wrap justify-center py-2">
             <span className="px-2 font-bold">Technical Skills</span>
             <span className="px-2">|</span>
             <span className="px-2">Software Developer</span>
@@ -92,6 +92,14 @@ const resume = () => {
             <span className="px-2">MySQL</span>
             <span className="px-2">|</span>
             <span className="px-2">Insomnia</span>
+            <span className="px-2">|</span>
+            <span className="px-2">Nest Js</span>
+            <span className="px-2">|</span>
+            <span className="px-2">React Native</span>
+            <span className="px-2">|</span>
+            <span className="px-2">Render</span>
+            <span className="px-2">|</span>
+            <span className="px-2">Vercel</span>
           </p>
         </div>
 
@@ -100,11 +108,11 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Yahu Delivery</span>
+            <span className="italic font-bold">Yahu Delivery</span>
             <span className="px-2">|</span>Philippines | 2022-02 - 2022-06
           </p>
           <p className="py-1 italic">Front End Web Developer | UI/UX</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
               Designed and developed a custom delivery website, leveraging
               front-end technologies to optimize the user experience for
@@ -125,11 +133,11 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Web3 Hackathon</span>
+            <span className="italic font-bold">Web3 Hackathon</span>
             <span className="px-2">|</span>Philippines | 2022-12-11 - 2022-13-11
           </p>
           <p className="py-1 italic">Front End Web Developer</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
               Achieved a top 7 finalist position out of over 20 participants.
             </li>
@@ -146,13 +154,13 @@ const resume = () => {
 
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">Freelancing</span>
+            <span className="italic font-bold">Freelancing</span>
             <span className="px-2">|</span>Philippines
           </p>
           <p className="py-1 italic">
             Front End Web Developer | Backend Developer
           </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+          <ul className="py-1 leading-relaxed list-disc list-outside px-7">
             <li>
               I have developed websites using MERN, Laravel, and PHP, showcasing
               my expertise in full-stack web development and delivering
@@ -168,6 +176,9 @@ const resume = () => {
               application of strong problem-solving and analytical skills,
               promptly addressing and resolving technical issues to ensure
               seamless operation.
+            </li>
+            <li>
+              Experienced using Twilio SMS and PayMaya / Maya for payment.
             </li>
           </ul>
         </div>

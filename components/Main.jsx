@@ -10,20 +10,19 @@ import {
   FaTelegram,
   FaDiscord,
 } from "react-icons/fa";
-import HomeImg from "../public/assets/about-me/Gab-Laptop.jpg";
+import HomeImg from "../public/assets/about-me/devcon.jpg";
 
 const Main = () => {
   return (
     <div className="w-full h-screen text-center bg-[#34495e] text-white">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center sm: pt-20">
-        <div className="w-1/2 hidden md:block">
-          <div className="w-full h-full mt-2">
+        <div className="hidden w-1/2 md:block">
+          <div className="items-center mt-8">
             <Image
               src={HomeImg}
               alt="Gab"
-              height="100%"
-              width="100%"
-              layout="responsive"
+              height="550%"
+              width="450%"
               className="rounded-xl"
             />
           </div>
@@ -40,15 +39,15 @@ const Main = () => {
               width="25%"
             />
           </span>
-          <h1 className="lg:text-6xl lg:py-4 text-2xl py-1">
+          <h1 className="py-1 text-2xl lg:text-6xl lg:py-4">
             I’m <span className="text-[#7795b4]"> Gabriel</span>
           </h1>
-          <h1 className="lg:text-6xl lg:py-2 text-2xl">
-            A Front-End Web Developer
+          <h1 className="text-2xl lg:text-6xl lg:py-2">
+            A Full Stack Developer 👨‍💻
           </h1>
           <p className="py-4 sm:max-w-[70%] m-auto text-lg md:text-2xl">
-            I’m a third-year college student at Technological University of the
-            Philippines in Taguig City
+            I’m a graduting fourth-year college student at Technological
+            University of the Philippines in Taguig City
           </p>
 
           <div className="hidden md:grid grid-cols-4 items-center justify-between m-auto max-w-[18rem] gap-4">
@@ -57,7 +56,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaLinkedinIn className="text-[#34495e]" />
                 </span>
@@ -68,7 +67,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaGithub className="text-[#34495e]" />
                 </span>
@@ -79,7 +78,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaInstagram className="text-[#34495e]" />
                 </span>
@@ -90,14 +89,14 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaFacebookF className="text-[#34495e]" />
                 </span>
               </div>
             </a>
             <a href="https://t.me/Gabz092501" target="_blank" rel="noreferrer">
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaTelegram className="text-[#34495e]" />
                 </span>
@@ -108,7 +107,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaStackOverflow className="text-[#34495e]" />
                 </span>
@@ -119,7 +118,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaTwitter className="text-[#34495e]" />
                 </span>
@@ -130,7 +129,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-300 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-white">
+              <div className="p-6 duration-300 ease-in bg-white rounded-full shadow-lg cursor-pointer shadow-gray-300 hover:scale-110">
                 <span className="relative right-[.1rem]">
                   <FaDiscord className="text-[#34495e]" />
                 </span>
