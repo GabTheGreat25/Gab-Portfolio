@@ -280,12 +280,12 @@ const projects = () => {
                 This project utilized Angular for the frontend, complemented by
                 SCSS and Tailwind for styling. I made substantial contributions
                 to the frontend development, focusing on ensuring the web
-                application's dynamism and responsiveness. Additionally, I
-                played a pivotal role in the design phase, utilizing Figma to
-                craft a cohesive and visually appealing interface. This
-                experience afforded me the chance to apply my skills in a
-                collaborative setting, collaborating with a dynamic team to
-                construct a robust and cutting-edge web application.
+                applications dynamism and responsiveness. Additionally, I played
+                a pivotal role in the design phase, utilizing Figma to craft a
+                cohesive and visually appealing interface. This experience
+                afforded me the chance to apply my skills in a collaborative
+                setting, collaborating with a dynamic team to construct a robust
+                and cutting-edge web application.
               </p>
             </div>
           </div>
