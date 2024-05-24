@@ -29,10 +29,7 @@ const projects = () => {
       >
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-            <a
-              href="https://github.com/GabTheGreat25/php_pet_clinic"
-              className="text-black "
-            >
+            <a href="https://www.lhanlee-salon.com/" className="text-black ">
               <Image
                 height="100%"
                 width="100%"

@@ -6,7 +6,7 @@ import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Gabriel’s Portfolio</title>
         <meta
@@ -19,6 +19,6 @@ export default function Home() {
       <About />
       <Skills />
       <Contact />
-    </div>
+    </>
   );
 }

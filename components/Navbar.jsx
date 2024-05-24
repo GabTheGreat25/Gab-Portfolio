@@ -44,7 +44,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <a>
             <Image
@@ -104,7 +104,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full justify-end">
+            <div className="flex justify-end w-full">
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer bg-[#ecf0f3] hover:scale-110 ease-in duration-300"
