@@ -11,6 +11,8 @@ import VloggersImg from "../public/assets/projects/Vloggers.png";
 import MayaCLIImg from "../public/assets/projects/MayaCLI.png";
 import PromdiImg from "../public/assets/projects/Promdi.png";
 import YahuImg from "../public/assets/projects/Yahu.png";
+import BasicsOfHtmlImg from "../public/assets/projects/BasicsOfHtml.png";
+import TUPImg from "../public/assets/projects/TUP.png";
 
 const projects = () => {
   return (
@@ -157,7 +159,7 @@ const projects = () => {
           </div>
           <div className="overflow-hidden bg-white rounded-lg shadow-lg">
             <a
-              href="https://github.com/GabTheGreat25/Mendoza-Medalla-Repository"
+              href="https://github.com/GabTheGreat25/Laravel-Pet-Care"
               className="text-black"
             >
               <Image
@@ -170,7 +172,7 @@ const projects = () => {
             </a>
             <div className="p-4">
               <a
-                href="https://github.com/GabTheGreat25/Mendoza-Medalla-Repository"
+                href="https://github.com/GabTheGreat25/Laravel-Pet-Care"
                 className="text-black hover:text-[#5651e5]"
               >
                 <h2 className="mb-2 text-2xl font-bold">Pet Care</h2>
@@ -347,6 +349,65 @@ const projects = () => {
                 offered a customizable framework for styling. I contributed by
                 adding design elements and implementing logic, ensuring the
                 creation of a responsive and dynamic web application.
+              </p>
+            </div>
+          </div>
+          <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+            <a
+              href="https://gabthegreat25.github.io/Everything-You-Need-To-Know-About-HTML5/"
+              className="text-black "
+            >
+              <Image
+                height="100%"
+                width="100%"
+                layout="responsive"
+                src={BasicsOfHtmlImg}
+                alt="BasicsOfHtml"
+              />
+            </a>
+            <div className="p-4">
+              <a
+                href="https://gabthegreat25.github.io/Everything-You-Need-To-Know-About-HTML5/"
+                className="text-black hover:text-[#5651e5]"
+              >
+                <h2 className="mb-2 text-2xl font-bold">Basics of HTML</h2>
+              </a>
+
+              <p className="text-gray-800">
+                This project was built using HTML and CSS to help beginners
+                learn the basics. HTML provides the structure of web pages,
+                while CSS styles them. I added design elements and logic to
+                create a responsive and dynamic web application, serving as an
+                educational tool for those new to HTML and CSS.
+              </p>
+            </div>
+          </div>
+          <div className="overflow-hidden bg-white rounded-lg shadow-lg">
+            <a
+              href="https://gabthegreat25.github.io/First_Website/index.html"
+              className="text-black "
+            >
+              <Image
+                height="100%"
+                width="100%"
+                layout="responsive"
+                src={TUPImg}
+                alt="TUP"
+              />
+            </a>
+            <div className="p-4">
+              <a
+                href="https://gabthegreat25.github.io/First_Website/index.html"
+                className="text-black hover:text-[#5651e5]"
+              >
+                <h2 className="mb-2 text-2xl font-bold">TUP Website</h2>
+              </a>
+
+              <p className="text-gray-800">
+                This project represents my first website, constructed using HTML
+                and CSS. Throughout its development, I honed my HTML and CSS
+                skills, crafting a well-organized and visually appealing web
+                application with carefully implemented elements and features.
               </p>
             </div>
           </div>
