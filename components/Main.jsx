@@ -52,7 +52,7 @@ const Main = () => {
 
           <div className="hidden md:grid grid-cols-4 items-center justify-between m-auto max-w-[18rem] gap-4">
             <a
-              href="https://www.linkedin.com/in/gabriel-mendoza-218a07252"
+              href="https://www.linkedin.com/in/gaabsyy25/"
               target="_blank"
               rel="noreferrer"
             >

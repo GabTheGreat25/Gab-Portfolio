@@ -173,7 +173,7 @@ const Navbar = () => {
 
               <div className="xss:gap-x-14 xss:gap-y-4 xs:max-w-[12rem] gap-2 grid grid-cols-4 pt-2 max-w-[15rem]">
                 <a
-                  href="https://www.linkedin.com/in/gabriel-mendoza-218a07252/"
+                  href="https://www.linkedin.com/in/gaabsyy25/"
                   target="_blank"
                   rel="noreferrer"
                 >
